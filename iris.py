@@ -51,4 +51,4 @@ def predict():
     return render_template('index.html', prediction=species[prediction])
 
 if __name__ == '__main__':
-    app.run(debug=True,port=7860)
+    app.run(debug=True,port=5000)
